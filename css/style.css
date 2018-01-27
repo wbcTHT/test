@@ -1,0 +1,65 @@
+/*=== RESET 重置 ===*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+strong,
+em,
+b,
+i {
+    font-weight: normal;
+    font-style: normal;
+}
+
+input,
+button,
+textarea,
+select,
+option {
+    font-family: inherit;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+/*=== BASE ===*/
+
+body {
+	background: #f7f7f7;
+	font-family: "微軟正黑體", arial, sans-serif;
+	font-size: 16px;
+	line-height: 160%;
+	color: #000;
+}
+
+a {
+	color: #111;
+	text-decoration: none;
+	transition: color .5s ease;
+}
+
+a:hover {
+	color: #007bff;
+}
